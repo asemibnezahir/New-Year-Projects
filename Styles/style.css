@@ -146,7 +146,8 @@ header p{
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
-    padding: 56px 63px;
+    padding: 56px 60px;
+    
 }
 .call{
     margin-top: 130px;
@@ -163,6 +164,7 @@ header p{
     font-weight: bold;
     max-width: 460px;
     margin-bottom: 24px;
+    /* margin-left: 60px; */
 }
 
 #grad button{
@@ -173,11 +175,15 @@ header p{
     font-weight: 600;
     border: none;
     border-radius: 5px;
-
+    /* margin-left: 60px; */
 }
 /* .call-cont{
     position:absolute;
     z-index: -1;    
+} */
+/* .aligndiv{
+    display: flex;
+    justify-content: center;
 } */
 
 
@@ -185,3 +191,64 @@ header p{
 
 
 /* Footer Design Start */
+footer{
+    margin-top: 130px;
+    background-color: #151414;
+    height: 570px;
+    width: 100%;
+}
+
+.foot-cont{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 130px;
+    color: white;
+}
+.future-links{
+    width: 415px;
+    height: 380px;
+}
+.future-links h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.future-links p{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.link{
+    display: flex;
+    gap:18px;
+}
+
+.subscribe-form h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+form input[type="email"]{
+    width: 320px;
+    height: 60px;
+    border: 1px solid #F3F3F3;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 16px;
+}
+form input[type="email"]::placeholder{
+    font-size: 18px;
+    padding: 21px;
+    color: #F3F3F3;
+    background-color: #151414;
+}
+
+form input[type="submit"]{
+    width: 170px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
